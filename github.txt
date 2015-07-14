@@ -9,6 +9,9 @@ SVN: Subversion / Mercurial / TFS / CVS / GIT
 1.	GitHub: Es la red social de los programadores
 2.	Tiene Web / Apps
 3.	Mucho más fácil.
+
+Cambios a la url
+
 ===
 Repositorio de código GITHUB (master)
 1.	Múltiples versiones del mismo código
