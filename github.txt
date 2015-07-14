@@ -1,0 +1,25 @@
+
+Problemas de FTP
+1. Multiples personas en el equipo.
+2. No hay culpa de quien modificó el código.
+3. FTP es viejo, arcaico.
+===
+SISTEMA DE CONTROL DE VERSIONES
+SVN: Subversion / Mercurial / TFS / CVS / GIT
+1.	GitHub: Es la red social de los programadores
+2.	Tiene Web / Apps
+3.	Mucho más fácil.
+===
+Repositorio de código GITHUB (master)
+1.	Múltiples versiones del mismo código
+2.	Cambios delta.  Internamente GIT es una base de datos atómica. Solo se envían los cambios exactos que se hagan.
+3.	Historial de cada archivo
+4.	Múltiples personas sobre el mismo archivo.
+5.	CULPA AL CULPABLE
+6.	Ramas (branches)
+*master (github.com) REPO PRINCIPAL
+*master (disco duro) REPO LOCAL
+*master
+	---MERGE (experimental -master)
+*experimental local
+ *master (servidor.com) REPO PRODUCCIÓN
