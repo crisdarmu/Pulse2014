@@ -1,0 +1,71 @@
+Resoluciones
+
+Pantallas para los que tenemos que diseñar
+
+Telefono -
+Tablet
+Desktop
+
+El tamaño de fuente en todos los formatos debería ser de 16px. Se
+ve bien en las tres pantallas.
+
+Pantallas Retina
+Tienen el doble de pixeles que reportan.
+Hay que duplicar el tamaño de la imagen. El tamaño de una imagen se 
+coloca al doble para que se vea bien.
+
+Normalizar el CSS
+
+Cuando se arranca un diseño nuevo en CSS el problema es que los diseños
+se ven diferentes en los navegadores.
+
+
+Meta name="description"  content="Contenido a visualizar"
+
+<link rel="stylesheet" href="normalize.css">
+
+El orden en que van los links es el orden en el que los renderea
+el navegador web.
+
+CSS
+etiqueta 
+{
+}
+
+#id
+{
+}
+
+.clase
+{
+}
+
+Cuando vamos a declarar una fuente font-family y esta tiene una sola
+palabra, no necesitamos ponerla en comillas ej: Arial
+font.family:Arial     <>  font-family:"Times New Roman"
+
+CAJAS
+
+Una caja es cualquier objeto en HTML que envuelva a otro y le permita
+tener margenes y flotar.
+
+Para que una caja esté dentro del texto, se usa inline 
+
+#objeto
+{
+display:inline; Se mezcla con el texto, con margenes superiores e inf.
+display:block;  
+display:inline-block;
+}
+
+div, figure, header, section, article, p, nav --> BLOCK
+audio, video, img span --> INLINE
+
+font-wight:normal;  Quita la negrita
+
+FLOTACIÓN DE OBJETOS
+
+paddin margen interno de la página
+margin margen externo de la pagina
+
+
